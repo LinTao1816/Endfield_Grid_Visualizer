@@ -1,0 +1,5595 @@
+[
+  {
+    "ID": "反应池",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_mix_pool_1_item_liquid_copper_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-powder",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_1_item_copper_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 2
+          },
+          {
+            "MaterialID": "item-iron-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_1_item_liquid_plant_grass_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-powder-1",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_1_item_xiranite_poly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 2
+          },
+          {
+            "MaterialID": "item-iron-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-xiranite-poly",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_1_item_liquid_xiranite_poly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_1_item_liquid_plant_grass_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-powder-2",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_1_item_liquid_xiranite_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-xiranite-powder",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_1_item_liquid_xiranite_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-xiranite-enr-powder",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "粉碎机",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [
+      {
+        "PortID": "in1",
+        "Pos": [
+          2,
+          1
+        ]
+      }
+    ],
+    "SolidOutputs": [
+      {
+        "PortID": "out1",
+        "Pos": [
+          2,
+          3
+        ]
+      }
+    ],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_grinder_1_item_copper_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-nugget",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_grinder_1_item_plant_moss_powder_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-moss-powder-2",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_grinder_1_item_plant_grass_powder_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-grass-powder-1",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_grinder_1_item_iron_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-nugget",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_grinder_1_item_plant_moss_powder_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-moss-powder-1",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_grinder_1_item_plant_moss_powder_3_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-3",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-moss-powder-3",
+            "Quantity": 3
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_grinder_1_item_plant_bbflower_powder_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-bbflower-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-bbflower-powder-1",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_grinder_1_item_plant_grass_powder_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-grass-powder-2",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_grinder_1_item_originium_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-originium-ore",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-originium-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_grinder_1_item_quartz_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-quartz-glass",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-quartz-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_grinder_1_item_crystal_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-crystal-shell",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-crystal-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_grinder_1_item_carbon_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-carbon-mtl",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-powder",
+            "Quantity": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "封装机",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_tools_assebling_mc_1_item_proc_battery_1_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-cmpt",
+            "Quantity": 5
+          },
+          {
+            "MaterialID": "item-originium-powder",
+            "Quantity": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-proc-battery-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_tools_assebling_mc_1_item_proc_battery_4_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-xiranite-powder",
+            "Quantity": 5
+          },
+          {
+            "MaterialID": "item-originium-enr-powder",
+            "Quantity": 15
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-proc-battery-4",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_tools_assebling_mc_1_item_proc_battery_3_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-cmpt",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-originium-enr-powder",
+            "Quantity": 15
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-proc-battery-3",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_tools_assebling_mc_1_item_proc_bomb_1_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-cmpt",
+            "Quantity": 5
+          },
+          {
+            "MaterialID": "item-plant-bbflower-powder-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-proc-bomb-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_tools_assebling_mc_1_item_bottled_food_4_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-cmpt",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-fbottle-iron-grass-1",
+            "Quantity": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-bottled-food-4",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_tools_assebling_mc_1_item_activity_xiranite_enr_tool_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-activity-xiranite-enr-cmpt",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-copper-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-activity-xiranite-enr-tool",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_tools_assebling_mc_1_item_activity_xiranite_hulu_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-activity-xiranite-bottle",
+            "Quantity": 5
+          },
+          {
+            "MaterialID": "item-activity-xiranite-cmpt",
+            "Quantity": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-activity-xiranite-hulu",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_tools_assebling_mc_1_item_activity_xiranite_enr_hulu_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-xiranenr-grass-2",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-activity-xiranite-enr-tool",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-activity-xiranite-enr-hulu",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_tools_assebling_mc_1_item_bottled_rec_hp_4_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-cmpt",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-fbottle-iron-grass-2",
+            "Quantity": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-bottled-rec-hp-4",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_tools_assebling_mc_1_item_bottled_food_5_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-cmpt",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-fbottle-copper-grass-1",
+            "Quantity": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-bottled-food-5",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_tools_assebling_mc_1_item_bottled_rec_hp_5_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-cmpt",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-fbottle-copper-grass-2",
+            "Quantity": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-bottled-rec-hp-5",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_tools_assebling_mc_1_item_proc_battery_2_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-cmpt",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-originium-powder",
+            "Quantity": 15
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-proc-battery-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_tools_assebling_mc_1_item_proc_battery_5_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-xiranite-poly",
+            "Quantity": 5
+          },
+          {
+            "MaterialID": "item-originium-enr-powder",
+            "Quantity": 20
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-proc-battery-5",
+            "Quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "灌装机",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copper_acid_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copper-acid",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copper_copper_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copper-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copper_xiranite_lowpoly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copper-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copper_copper_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copper-copper-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copper_grass_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copper-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copper_water_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copper-water",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copper_xiranite_poly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copper-xiranite-poly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copper_sewage_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copper-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copper_grass_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copper-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copper_xiranite_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copper-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copper_xiranite_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copper-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_bottled_food_1_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 5
+          },
+          {
+            "MaterialID": "item-plant-moss-powder-2",
+            "Quantity": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-bottled-food-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_ironenr_acid_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-acid",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_ironenr_copper_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_ironenr_xiranite_lowpoly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_ironenr_copper_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-copper-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_ironenr_grass_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_ironenr_water_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-water",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_ironenr_xiranite_poly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-xiranite-poly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_ironenr_sewage_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_ironenr_grass_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_ironenr_xiranite_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_ironenr_xiranite_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glassenr_acid_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-acid",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glassenr_copper_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glassenr_xiranite_lowpoly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glassenr_copper_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-copper-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glassenr_grass_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glassenr_water_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-water",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glassenr_xiranite_poly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-xiranite-poly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glassenr_sewage_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glassenr_grass_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glassenr_xiranite_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glassenr_xiranite_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copperenr_acid_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-acid",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copperenr_copper_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copperenr_xiranite_lowpoly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copperenr_copper_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-copper-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copperenr_grass_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copperenr_water_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-water",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copperenr_xiranite_poly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-xiranite-poly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copperenr_sewage_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copperenr_grass_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copperenr_xiranite_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_copperenr_xiranite_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_bottled_food_3_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-plant-moss-enr-powder-2",
+            "Quantity": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-bottled-food-3",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_bottled_rec_hp_3_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-plant-moss-enr-powder-1",
+            "Quantity": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-bottled-rec-hp-3",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_iron_acid_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-iron-acid",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_iron_copper_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-iron-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_iron_xiranite_lowpoly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-iron-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_iron_copper_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-iron-copper-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_iron_grass_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-iron-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_iron_water_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-iron-water",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_iron_xiranite_poly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-iron-xiranite-poly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_iron_sewage_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-iron-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_iron_grass_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-iron-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_iron_xiranite_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-iron-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_iron_xiranite_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-iron-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_bottled_rec_hp_1_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 5
+          },
+          {
+            "MaterialID": "item-plant-moss-powder-1",
+            "Quantity": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-bottled-rec-hp-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_xiranenr_grass_2_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-activity-xiranite-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-xiranenr-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_bottled_food_2_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-plant-moss-powder-2",
+            "Quantity": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-bottled-food-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_bottled_rec_hp_2_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-plant-moss-powder-1",
+            "Quantity": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-bottled-rec-hp-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glass_acid_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glass-acid",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glass_copper_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glass-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glass_xiranite_lowpoly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glass-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glass_copper_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glass-copper-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glass_grass_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glass-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glass_water_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glass-water",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glass_xiranite_poly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glass-xiranite-poly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glass_sewage_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glass-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glass_grass_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glass-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glass_xiranite_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glass-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_filling_powder_mc_1_item_fbottle_glass_xiranite_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-fbottle-glass-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "精炼炉",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_furnance_1_item_copper_nugget_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-ore",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-nugget",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_iron_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_quartz_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-quartz-enr-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-quartz-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_crystal_shell_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-originium-ore",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-crystal-shell",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_crystal_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-originium-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-crystal-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_iron_nugget_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-ore",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-nugget",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_crystal_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-crystal-enr-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-crystal-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-powder-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_mtl_4",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-tundra-wood",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-mtl",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-carbon-enr-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_crystal_enr_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-originium-enr-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-crystal-enr-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_enr_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-enr-powder-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-enr-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_quartz_glass_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-quartz-sand",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-quartz-glass",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_crystal_shell_2",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-crystal-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-crystal-shell",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_iron_nugget_2",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-nugget",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_powder_2",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-powder-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_powder_3",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-powder-3",
+            "Quantity": 3
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-powder",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_powder_4",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-powder-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-powder",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_powder_5",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-powder-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-powder",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_mtl_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-mtl",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_mtl_2",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-mtl",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_mtl_3",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-3",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-mtl",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_mtl_5",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-mtl",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_mtl_6",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-mtl",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_carbon_enr_powder_2",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-enr-powder-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-enr-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_furnance_1_item_quartz_glass_2",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-quartz-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-quartz-glass",
+            "Quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "配件机",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_component_mc_1_item_copper_cmpt_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-nugget",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-cmpt",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_component_mc_1_item_iron_enr_cmpt_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-cmpt",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_component_mc_1_item_glass_enr_cmpt_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-quartz-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-enr-cmpt",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_component_mc_1_item_copper_enr_cmpt_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr",
+            "Quantity": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr-cmpt",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_component_mc_1_item_activity_xiranite_cmpt_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-xiranite-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-activity-xiranite-cmpt",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_component_mc_1_item_activity_xiranite_enr_cmpt_1",
+        "Time": 20,
+        "Inputs": [
+          {
+            "MaterialID": "item-xiranite-enr-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-activity-xiranite-enr-cmpt",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_component_mc_1_item_iron_cmpt_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-nugget",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-cmpt",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_component_mc_1_item_glass_cmpt_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-quartz-glass",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-cmpt",
+            "Quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "塑形机",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_shaper_1_item_copper_bottle_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-nugget",
+            "Quantity": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_shaper_1_item_iron_enr_bottle_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-enr",
+            "Quantity": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_shaper_1_item_glass_enr_bottle_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-quartz-enr",
+            "Quantity": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_shaper_1_item_copper_enr_bottle_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr",
+            "Quantity": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_shaper_1_item_iron_bottle_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-nugget",
+            "Quantity": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_shaper_1_item_activity_xiranite_bottle_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-xiranite-powder",
+            "Quantity": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-activity-xiranite-bottle",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_shaper_1_item_activity_xiranite_enr_bottle_1",
+        "Time": 20,
+        "Inputs": [
+          {
+            "MaterialID": "item-xiranite-enr-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-activity-xiranite-enr-bottle",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_shaper_1_item_glass_bottle_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-quartz-glass",
+            "Quantity": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "提纯机",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_liquid_purifier_1_item_liquid_copper_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_liquid_purifier_1_item_liquid_xiranite_poly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 4
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "天有洪炉",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_xiranite_oven_1_item_muck_xiranite_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-muck-feces-1",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-muck-xiranite-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_xiranite_oven_1_item_xiranite_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-carbon-enr",
+            "Quantity": 2
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-xiranite-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_xiranite_oven_1_item_xiranite_enr_powder_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-xiranite-powder",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-xiranite-enr-powder",
+            "Quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "研磨机",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_thickener_1_item_quartz_enr_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-quartz-powder",
+            "Quantity": 2
+          },
+          {
+            "MaterialID": "item-plant-moss-powder-3",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-quartz-enr-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_thickener_1_item_plant_moss_enr_powder_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-powder-2",
+            "Quantity": 2
+          },
+          {
+            "MaterialID": "item-plant-moss-powder-3",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-moss-enr-powder-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_thickener_1_item_plant_moss_enr_powder_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-powder-1",
+            "Quantity": 2
+          },
+          {
+            "MaterialID": "item-plant-moss-powder-3",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-moss-enr-powder-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_thickener_1_item_iron_enr_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-iron-powder",
+            "Quantity": 2
+          },
+          {
+            "MaterialID": "item-plant-moss-powder-3",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_thickener_1_item_originium_enr_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-originium-powder",
+            "Quantity": 2
+          },
+          {
+            "MaterialID": "item-plant-moss-powder-3",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-originium-enr-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_thickener_1_item_crystal_enr_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-crystal-powder",
+            "Quantity": 2
+          },
+          {
+            "MaterialID": "item-plant-moss-powder-3",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-crystal-enr-powder",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_thickener_1_item_carbon_enr_powder_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-carbon-powder",
+            "Quantity": 2
+          },
+          {
+            "MaterialID": "item-plant-moss-powder-3",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-carbon-enr-powder",
+            "Quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "装备原件机",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_winder_1_item_equip_script_4_1_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-cmpt",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-xiranite-powder",
+            "Quantity": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-equip-script-4-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_winder_1_item_equip_script_3_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-crystal-enr",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-quartz-enr",
+            "Quantity": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-equip-script-3",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_winder_1_item_equip_script_4_2_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-enr-cmpt",
+            "Quantity": 2
+          },
+          {
+            "MaterialID": "item-xiranite-enr-powder",
+            "Quantity": 2
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-equip-script-4-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_winder_1_item_equip_script_2_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-crystal-shell",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-iron-nugget",
+            "Quantity": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-equip-script-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_winder_1_item_equip_script_4_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-crystal-enr",
+            "Quantity": 10
+          },
+          {
+            "MaterialID": "item-xiranite-powder",
+            "Quantity": 10
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-equip-script-4",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_winder_1_item_equip_script_1_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-crystal-shell",
+            "Quantity": 5
+          },
+          {
+            "MaterialID": "item-quartz-glass",
+            "Quantity": 5
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-equip-script-1",
+            "Quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "采种机",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_seedcollector_1_item_plant_moss_seed_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-moss-seed-2",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_seedcollector_1_item_plant_sp_seed_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-sp-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-sp-seed-1",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_seedcollector_1_item_plant_sp_seed_4_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-sp-4",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-sp-seed-4",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_seedcollector_1_item_plant_grass_seed_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-grass-seed-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_seedcollector_1_item_plant_sp_seed_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-sp-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-sp-seed-2",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_seedcollector_1_item_plant_moss_seed_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-moss-seed-1",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_seedcollector_1_item_plant_sp_seed_3_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-sp-3",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-sp-seed-3",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_seedcollector_1_item_plant_moss_seed_3_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-3",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-moss-seed-3",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_seedcollector_1_item_plant_bbflower_seed_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-bbflower-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-bbflower-seed-1",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_seedcollector_1_item_plant_grass_seed_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-grass-seed-2",
+            "Quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "拆解机",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_bottle_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copper-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_bottle_2",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copper-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_bottle_3",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copper-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_bottle_4",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copper-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_bottle_5",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copper-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_bottle_6",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copper-xiranite",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_bottle_7",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copper-xiranite-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_bottle_8",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copper-xiranite-poly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_bottle_9",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copper-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_bottle_10",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copper-copper",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_bottle_11",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copper-copper-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_enr_bottle_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_enr_bottle_2",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_enr_bottle_3",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_enr_bottle_4",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_enr_bottle_5",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_enr_bottle_6",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-xiranite",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_enr_bottle_7",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-xiranite-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_enr_bottle_8",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-xiranite-poly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_enr_bottle_9",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_enr_bottle_10",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-copper",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_enr_bottle_11",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-ironenr-copper-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_enr_bottle_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_enr_bottle_2",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_enr_bottle_3",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_enr_bottle_4",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_enr_bottle_5",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_enr_bottle_6",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-xiranite",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_enr_bottle_7",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-xiranite-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_enr_bottle_8",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-xiranite-poly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_enr_bottle_9",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_enr_bottle_10",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-copper",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_enr_bottle_11",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glassenr-copper-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_enr_bottle_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_enr_bottle_2",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_enr_bottle_3",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_enr_bottle_4",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_enr_bottle_5",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_enr_bottle_6",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-xiranite",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_enr_bottle_7",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-xiranite-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_enr_bottle_8",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-xiranite-poly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_enr_bottle_9",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_enr_bottle_10",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-copper",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_copper_enr_bottle_11",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-copperenr-copper-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_bottle_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-iron-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_bottle_2",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-iron-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_bottle_3",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-iron-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_bottle_4",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-iron-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_bottle_5",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-iron-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_bottle_6",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-iron-xiranite",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_bottle_7",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-iron-xiranite-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_bottle_8",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-iron-xiranite-poly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_bottle_9",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-iron-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_bottle_10",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-iron-copper",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_iron_bottle_11",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-iron-copper-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-iron-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_activity_xiranite_enr_bottle_1",
+        "Time": 10,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-xiranenr-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-activity-xiranite-enr-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 5
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_bottle_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glass-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_bottle_2",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glass-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_bottle_3",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glass-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_bottle_4",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glass-grass-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_bottle_5",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glass-grass-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_bottle_6",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glass-xiranite",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_bottle_7",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glass-xiranite-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_bottle_8",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glass-xiranite-poly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_bottle_9",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glass-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_bottle_10",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glass-copper",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_dismantler_1_item_glass_bottle_11",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-fbottle-glass-copper-enr",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-glass-bottle",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "扩容反应池",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_mix_pool_2_item_liquid_copper_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-copper-powder",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-copper",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_2_item_copper_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-liquid-copper-enr",
+            "Quantity": 2
+          },
+          {
+            "MaterialID": "item-iron-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-copper-enr",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_2_item_liquid_plant_grass_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-powder-1",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-plant-grass-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_2_item_xiranite_poly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 2
+          },
+          {
+            "MaterialID": "item-iron-powder",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-xiranite-poly",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_2_item_liquid_xiranite_poly_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_2_item_liquid_plant_grass_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-powder-2",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-plant-grass-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_2_item_liquid_xiranite_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-xiranite-powder",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-xiranite",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_mix_pool_2_item_liquid_xiranite_enr_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-xiranite-enr-powder",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-acid",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-liquid-xiranite-enr",
+            "Quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "种植机",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "machine_planter_1_item_plant_moss_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-seed-2",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-moss-2",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_planter_1_item_plant_grass_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-seed-1",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-grass-1",
+            "Quantity": 2
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_planter_1_item_plant_moss_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-seed-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-moss-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_planter_1_item_plant_moss_3_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-moss-seed-3",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-moss-3",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_planter_1_item_plant_bbflower_1_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-bbflower-seed-1",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-bbflower-1",
+            "Quantity": 1
+          }
+        ]
+      },
+      {
+        "RecipeID": "machine_planter_1_item_plant_grass_2_1",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-plant-grass-seed-2",
+            "Quantity": 1
+          },
+          {
+            "MaterialID": "item-liquid-water",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": [
+          {
+            "MaterialID": "item-plant-grass-2",
+            "Quantity": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "协议核心",
+    "BaseSize": [
+      9,
+      9
+    ],
+    "NeedsPower": false,
+    "SolidInputs": [
+      {
+        "PortID": "SI_T1",
+        "Pos": [
+          2,
+          1
+        ]
+      },
+      {
+        "PortID": "SI_T2",
+        "Pos": [
+          3,
+          1
+        ]
+      },
+      {
+        "PortID": "SI_T3",
+        "Pos": [
+          4,
+          1
+        ]
+      },
+      {
+        "PortID": "SI_T4",
+        "Pos": [
+          5,
+          1
+        ]
+      },
+      {
+        "PortID": "SI_T5",
+        "Pos": [
+          6,
+          1
+        ]
+      },
+      {
+        "PortID": "SI_T6",
+        "Pos": [
+          7,
+          1
+        ]
+      },
+      {
+        "PortID": "SI_T7",
+        "Pos": [
+          8,
+          1
+        ]
+      },
+      {
+        "PortID": "SI_B1",
+        "Pos": [
+          2,
+          9
+        ]
+      },
+      {
+        "PortID": "SI_B2",
+        "Pos": [
+          3,
+          9
+        ]
+      },
+      {
+        "PortID": "SI_B3",
+        "Pos": [
+          4,
+          9
+        ]
+      },
+      {
+        "PortID": "SI_B4",
+        "Pos": [
+          5,
+          9
+        ]
+      },
+      {
+        "PortID": "SI_B5",
+        "Pos": [
+          6,
+          9
+        ]
+      },
+      {
+        "PortID": "SI_B6",
+        "Pos": [
+          7,
+          9
+        ]
+      },
+      {
+        "PortID": "SI_B7",
+        "Pos": [
+          8,
+          9
+        ]
+      }
+    ],
+    "SolidOutputs": [
+      {
+        "PortID": "SO_L1",
+        "Pos": [
+          1,
+          2
+        ]
+      },
+      {
+        "PortID": "SO_L2",
+        "Pos": [
+          1,
+          5
+        ]
+      },
+      {
+        "PortID": "SO_L3",
+        "Pos": [
+          1,
+          8
+        ]
+      },
+      {
+        "PortID": "SO_R1",
+        "Pos": [
+          9,
+          2
+        ]
+      },
+      {
+        "PortID": "SO_R2",
+        "Pos": [
+          9,
+          5
+        ]
+      },
+      {
+        "PortID": "SO_R3",
+        "Pos": [
+          9,
+          8
+        ]
+      }
+    ],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": []
+  },
+  {
+    "ID": "供电桩",
+    "BaseSize": [
+      2,
+      2
+    ],
+    "NeedsPower": false,
+    "PowerRange": [
+      12,
+      12
+    ],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": []
+  },
+  {
+    "ID": "暗管出口",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": false,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [
+      {
+        "PortID": "LO_1",
+        "Pos": [
+          2,
+          1
+        ]
+      }
+    ],
+    "Recipes": []
+  },
+  {
+    "ID": "暗管入口",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": false,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [
+      {
+        "PortID": "LI_1",
+        "Pos": [
+          2,
+          1
+        ]
+      }
+    ],
+    "LiquidOutputs": [],
+    "Recipes": []
+  },
+  {
+    "ID": "仓库存货口",
+    "BaseSize": [
+      1,
+      3
+    ],
+    "NeedsPower": false,
+    "PowerRange": [],
+    "SolidInputs": [
+      {
+        "PortID": "SI_1",
+        "Pos": [
+          1,
+          2
+        ]
+      }
+    ],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": []
+  },
+  {
+    "ID": "仓库存取线基段",
+    "BaseSize": [
+      4,
+      8
+    ],
+    "NeedsPower": false,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": []
+  },
+  {
+    "ID": "仓库存取线源桩",
+    "BaseSize": [
+      4,
+      4
+    ],
+    "NeedsPower": false,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": []
+  },
+  {
+    "ID": "仓库取货口",
+    "BaseSize": [
+      1,
+      3
+    ],
+    "NeedsPower": false,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [
+      {
+        "PortID": "SO_1",
+        "Pos": [
+          1,
+          2
+        ]
+      }
+    ],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": []
+  },
+  {
+    "ID": "储液罐",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": []
+  },
+  {
+    "ID": "多口暗管出口",
+    "BaseSize": [
+      3,
+      5
+    ],
+    "NeedsPower": false,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [
+      {
+        "PortID": "LO_1",
+        "Pos": [
+          1,
+          2
+        ]
+      },
+      {
+        "PortID": "LO_2",
+        "Pos": [
+          1,
+          4
+        ]
+      }
+    ],
+    "Recipes": []
+  },
+  {
+    "ID": "多口暗管入口",
+    "BaseSize": [
+      3,
+      5
+    ],
+    "NeedsPower": false,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [
+      {
+        "PortID": "LI_1",
+        "Pos": [
+          1,
+          2
+        ]
+      },
+      {
+        "PortID": "LI_2",
+        "Pos": [
+          1,
+          4
+        ]
+      }
+    ],
+    "LiquidOutputs": [],
+    "Recipes": []
+  },
+  {
+    "ID": "协议储存箱",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [
+      {
+        "PortID": "SI_1",
+        "Pos": [
+          1,
+          1
+        ]
+      },
+      {
+        "PortID": "SI_2",
+        "Pos": [
+          2,
+          1
+        ]
+      },
+      {
+        "PortID": "SI_3",
+        "Pos": [
+          3,
+          1
+        ]
+      }
+    ],
+    "SolidOutputs": [],
+    "LiquidInputs": [],
+    "LiquidOutputs": [],
+    "Recipes": []
+  },
+  {
+    "ID": "废水处理机",
+    "BaseSize": [
+      3,
+      3
+    ],
+    "NeedsPower": true,
+    "PowerRange": [],
+    "SolidInputs": [],
+    "SolidOutputs": [],
+    "LiquidInputs": [
+      {
+        "PortID": "LI_1",
+        "Pos": [
+          2,
+          1
+        ]
+      }
+    ],
+    "LiquidOutputs": [],
+    "Recipes": [
+      {
+        "RecipeID": "treat_sewage",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-liquid-sewage",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": []
+      },
+      {
+        "RecipeID": "treat_xiranite_poly",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-liquid-xiranite-poly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": []
+      },
+      {
+        "RecipeID": "treat_xiranite_lowpoly",
+        "Time": 2,
+        "Inputs": [
+          {
+            "MaterialID": "item-liquid-xiranite-lowpoly",
+            "Quantity": 1
+          }
+        ],
+        "Outputs": []
+      }
+    ]
+  }
+]
